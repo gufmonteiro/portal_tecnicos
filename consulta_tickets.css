@@ -1,0 +1,177 @@
+/** Estilos da Página de Consulta Tickets **/
+
+	body {
+		font-family: Arial, sans-serif;
+		background-color: white;
+		max-height: 100vh;
+	}
+
+	nav {
+		background-color: #373865;
+	}
+
+	h1 {
+		color: #373865;
+		font-size: 30px;
+		font-weight: bold;
+	}
+
+    hr {
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+	}
+
+	td {
+        padding: 5px;
+    }
+
+    tbody tr td.status-finalizado-parcial {
+    	position: relative;
+    	text-align: center;
+	    color: #f12d2d;
+	    background-color: #fdecec;
+	    border-radius: 40px;
+	}
+
+	tbody tr td.status-finalizado-parcial::before {
+		background-color: #f12d2d;
+		content: '';
+		position: absolute;
+		left: 75px;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+	}
+
+    tbody tr td.status-realizado {
+    	position: relative;
+    	text-align: center;
+	    color: green;
+	    background-color: #90EE90;
+	    border-radius: 40px;
+	}
+
+	tbody tr td.status-realizado::before {
+		background-color: green;
+		content: '';
+		position: absolute;
+		left: 75px;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+	}
+
+    tbody tr td.status-cancelado {
+    	position: relative;
+    	text-align: center;
+	    color: #828993;
+	    background-color: #eaeaea;
+	    border-radius: 40px;
+	}
+
+	tbody tr td.status-cancelado::before {
+		background-color: #828993;
+		content: '';
+		position: absolute;
+		left: 75px;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+	}
+
+	tbody tr td.status-em-atendimento {
+    	position: relative;
+    	text-align: center;
+	    color: #dac37b;
+	    background-color: #FFFFF0;
+	    border-radius: 40px;
+	}
+
+	tbody tr td.status-em-atendimento::before {
+		background-color: #dac37b;
+		content: '';
+		position: absolute;
+		left: 75px;
+		top: 50%;
+		transform: translateY(-50%);
+		width: 10px;
+		height: 10px;
+		border-radius: 50%;
+	}
+
+    .btn-primary {
+    	color: white;
+    	background-color: #373865;
+    }
+
+    .float-right {
+    	float: right;
+    }
+
+	.td-ticket {
+		font-weight: bold;
+	}
+
+	.nav-link {
+		font-family: Arial, sans-serif;
+		color: white !important;
+	}
+
+	.nav-link:visited {
+    	color: white !important;
+	}
+
+	.rounded-circle {
+		width: 45px;
+	}
+
+	.ultimosTickets {
+		width: 80%;
+		margin-top: 100px;
+		margin-left: 190px;
+		padding: 20px;
+		background-color: white;
+		border-radius: 5px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	}
+
+	/* Inicio do Footer */
+
+	.footer {
+		position: fixed;
+	    padding: 0;
+	    text-align: right;
+	    bottom: 0;
+	    width: 100%;
+	}
+
+	.footer-content {
+	    display: flex;
+	    justify-content: right;
+	}
+
+	.footer p {
+		color: #373865;
+	    margin-right: 10px;
+	    margin-top: 10px;
+	    font-weight: bold;
+    	font-size: 22px;
+    	height: 100%;
+	}
+
+	.img-footer {
+		margin-top: 10px;
+		margin-right: 10px;
+		height: 100%;
+		width: 150px;
+	}
+
+	/* Fim do Footer */
+
+	/* Fim do Arquivo */ 

@@ -1,0 +1,123 @@
+/** Estilos da Página de Cadastro Ticket **/
+
+	body {
+		font-family: Arial, sans-serif;
+		background-color: white;
+	}
+
+	nav {
+		background-color: #373865;
+	}
+
+	h1 {
+		margin-top: 50px;
+		margin-left: 190px;
+		color: #373865;
+		font-weight: bold;
+	}
+
+	hr {
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+	}
+
+	.title-cliente {
+		color: #373865;
+		margin-top: 50px;
+		margin-left: 190px;
+		font-weight: bold;
+	}
+
+	.title-produto {
+		color: #373865;
+		margin-top: 30px;
+		margin-left: 190px;
+		font-weight: bold;
+	}
+
+	.title-defeitos {
+		color: #373865;
+		margin-top: 30px;
+		margin-left: 190px;
+		font-weight: bold;
+	}
+
+	.nav-link {
+		font-family: Arial, sans-serif;
+		color: white !important;
+	}
+
+	.nav-link:visited {
+    	color: white !important;
+	}
+
+	.rounded-circle {
+		width: 45px;
+	}
+
+	.dadosCliente {
+		width: 80%;
+		margin-left: 190px;
+		padding: 20px;
+		background-color: #f4f4f4;
+		border-radius: 20px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	}
+
+	.dadosProduto {
+		width: 80%;
+		margin-top: 20px;
+		margin-left: 190px;
+		padding: 20px;
+		background-color: #f4f4f4;
+		border-radius: 20px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	}
+
+	.defeitos {
+		width: 80%;
+		margin-top: 20px;
+		margin-left: 190px;
+		padding: 20px;
+		background-color: #f4f4f4;
+		border-radius: 20px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	}
+
+	.custom-text-input {
+        height: 130px;
+    }
+
+    /* Inicio do Footer */
+
+	.footer {
+	    padding: 0;
+	    text-align: right;
+	    bottom: 0;
+	    width: 100%;
+	}
+
+	.footer-content {
+	    display: flex;
+	    justify-content: right;
+	}
+
+	.footer p {
+		color: #373865;
+	    margin-right: 10px;
+	    margin-top: 10px;
+	    font-weight: bold; /* Deixa o texto em negrito */
+    	font-size: 22px;
+    	height: 100%;
+	}
+
+	.img-footer {
+		margin-top: 10px;
+		margin-right: 10px;
+		height: 100%;
+		width: 150px;
+	}
+
+	/* Fim do Footer */
+
+	/* Fim do Arquivo */
